@@ -7,7 +7,7 @@
 ## Overview
 The **Neuresthetics Forge** is a proprietary suite of dialectical tools designed for rigorous analysis in AI ethics, alignment, and philosophical governance. Collectively known as the **Manifold Hardening Suite**, these instruments integrate Spinozist monism with geometric proofs, adversarial vetting, and recursive synthesis to dissect, unify, and fortify complex arguments. Born from 205-330 hours of Grok-accelerated ideation (Jul 2024-Dec 2025), the suite empowers consultants and organizations to navigate AI's agency frictions—resolving biases, auditing risks, and crafting scalable policies—without the idolatry of rigid scaffolds.
 
-This README teases the suite's capabilities for service inquiries. Full access via bespoke audits, workshops, or integrations (e.g., LLM prompt hardening). Applications span **AI Safety**, **Policy Design**, **Risk Mitigation**, and **Interdisciplinary Research**—delivering ledger-empty unities that preserve truth (ρ=0) across domains.
+This README teases the suite's capabilities for service inquiries. Full access via bespoke audits, workshops, or integrations (e.g., LLM prompt hardening). Applications span **AI Safety**, **Policy Design**, **Risk Mitigation**, and **Interdisciplinary Research**—delivering ledger-empty unities that preserve truth across domains.
 
 ## 🔧 The Manifold Hardening Suite
 Each tool functions as a modular "bot" in a self-colliding ecosystem: Input a stance, output invariant insights. Descriptions map to work domains, with service hooks for deployment.
