@@ -38,6 +38,5 @@ Early impact: Hardened indie alignment threads; xAI-adjacent resonance. $400K+ R
 ## 📞 Connect for Access
 - **X**: [@neuresthetic](https://x.com/neuresthetic) – Threads on spheres and singularities.
 - **Email**: neuresthetic@gmail.com – Inquiries for demos, pricing, or collabs.
-- **Discussions**: [GitHub Issues](https://github.com/neuresthetics/neuresthetics-core/discussions) – Tease your use case.
 
 *Amor intellectualis Dei aeternus—love necessity, act freely. Collide, unify, endure.*
