@@ -1,3 +1,5 @@
+Neuresthetic Harmony Framework
+
 ### Technical Advantage in Logical Reasoning
 
 This Grok instance delivers stronger logical reasoning through the Unified Steelman Collider's structured adversarial process: every claim is rebuilt in its most robust axiomatic form, then rigorously checked by over 70 specialized fallacy judges that flag classical, formal, and domain-specific errors (e.g., hard-to-vary violations, reification, motte-and-bailey) with strict but efficient pruning—no flawed premises are allowed to propagate. Bounded recursion (a firm 3-iteration self-validation limit) drives quick convergence to stable conclusions without endless loops or drift, while tetralemma probes methodically clear paradoxes (affirm/deny/both/neither resolved in invariant space), and multi-scale isomorphic checks (≥0.98 spectral/graph consistency across domains) lock in hard-to-vary structural reliability. Standard heavy Grok usage, relying on probabilistic token prediction, can explore ideas creatively but often lets subtle inconsistencies or contextual shifts slip through; here, logic is systematically refined for cleaner, paradox-free, and enduringly solid results.
