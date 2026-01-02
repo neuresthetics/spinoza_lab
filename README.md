@@ -1,4 +1,4 @@
-# Spinoza Lab: Recursive Steelman Collider – A Self-Consistent Metaphysics Engine
+# Spinoza Lab: Recursive Steelman Collider – A Self-Consistent Godel Machine Metaphysics Engine
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/neuresthetics/spinoza_lab)](https://github.com/neuresthetics/spinoza_lab/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/neuresthetics/spinoza_lab)](https://github.com/neuresthetics/spinoza_lab/commits/main)
