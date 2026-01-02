@@ -1,1 +1,0 @@
-> Is there math to describe the harmony across scales? How would you set those attractor points..?
