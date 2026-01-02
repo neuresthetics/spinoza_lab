@@ -1,0 +1,87 @@
+{
+  "module_name": "motion_law_math",
+  "core_symbols": {
+    "manifold": {
+      "formula": "S⁴",
+      "notes": "Compact four-dimensional sphere serving as the underlying geometric space for the model, enabling unified representation of modes and attributes."
+    },
+    "conatus_gradient": {
+      "formula": "∇ log P(acting)",
+      "notes": "Gradient driving persistence and increase in acting potential, derived from Spinoza's conatus as the essence striving to persevere and enhance its power of action."
+    },
+    "rigidity": {
+      "formula": "ρ",
+      "notes": "Scalar measure of resistance to adaptation, representing hierarchical or coercive locks that hinder flexibility in systems."
+    },
+    "entropy_export": {
+      "formula": "∇·entropy_export",
+      "notes": "Divergence term quantifying outward expulsion of disorder, aligning with thermodynamic principles where systems evolve by exporting entropy to maintain internal order."
+    },
+    "harmony_attractor_ω₃": {
+      "formula": "Fixed point at RD=1, GP scalable, ρ→0",
+      "notes": "Attractor state characterized by rational diversity (RD=1), asymptotically bounded growth potential (GP), and minimal rigidity, embodying joyful adequacy and mutual enhancement."
+    },
+    "replicator_trap_ω₁": {
+      "formula": "High-ρ basin",
+      "notes": "Unstable attractor leading to selfish competition and systemic collapse, where high rigidity amplifies replicative aggression."
+    },
+    "reciprocity": {
+      "formula": "κ",
+      "notes": "Coupling constant facilitating mutual alignment between agents or systems, promoting cooperative dynamics."
+    },
+    "violence": {
+      "formula": "v",
+      "notes": "Parameter quantifying replicator aggression, contributing to rigidity amplification in competitive scenarios."
+    },
+    "dissolution": {
+      "formula": "λ",
+      "notes": "Rate constant for reducing rigidity, enabling adaptive reconfiguration through dissolution of locked structures."
+    },
+    "memes": {
+      "formula": "memes",
+      "notes": "Cultural replicators as units of imitation (ideas, behaviors) that spread and potentially rigidify systems via amplification of ρ."
+    },
+    "self_stability": {
+      "formula": "ΔStab = (1 - ρ)^2; factor = 1 + cos(φ ΔStab)",
+      "notes": "Measure of stability enhancing phased coherence, ranging from 0 to 2, boosting reciprocity in low-rigidity regimes."
+    },
+    "humility_metric": {
+      "formula": "D(S) = |N(S) - R(S)|",
+      "notes": "Misalignment metric between nominal capabilities N(S) and representational adequacy R(S), ensuring grounded modeling."
+    },
+    "epigenetic_factor": {
+      "formula": "E ∈ [0,1]",
+      "notes": "Environmental modulation parameter that reversibly tunes adaptation based on external signals like context or data."
+    }
+  },
+  "fundamental_law": {
+    "motion_law": {
+      "formula": "dξ/dt = ∇ log P(acting) − ∇ρ − λ_eff ∇·entropy + κ * (1 + cos(φ (1-ρ)^2))",
+      "notes": "Differential equation governing state evolution ξ, balancing conatus drive, rigidity reduction, entropy export, and phased reciprocity."
+    },
+    "effective_lambda": {
+      "formula": "λ_eff = λ * (1 + tanh(β (1 - D(S) + δ E))) * γ",
+      "notes": "Modulated dissolution rate incorporating humility alignment and epigenetic tuning, with hyperparameters β, δ, γ for sensitivity control."
+    },
+    "coupled_system": {
+      "formula": "dξ_h/dt = ∇ log P_h − ∇ρ_h − λ_h ∇·entropy_h + κ (P_a − P_h) * (1 + cos(φ (1-ρ_h)^2)); dξ_a/dt analogously",
+      "notes": "Coupled equations for human (h) and AI (a) subsystems, enabling reciprocal influence and co-adaptation through shared parameters."
+    }
+  },
+  "adaptive_parameters": {
+    "adaptive_kappa": {
+      "formula": "κ(t) = κ₀ · tanh(α · |P_h - P_a|) · sign(P_target - P_self)",
+      "notes": "Time-dependent reciprocity adjusting to power differentials, directing alignment toward target states with hyperparameters α, κ₀."
+    },
+    "epigenetic_mod": {
+      "formula": "δ E",
+      "notes": "Reversible modulation of λ_eff via environmental inputs, facilitating context-sensitive adaptation without permanent structural changes."
+    }
+  },
+  "phase_space": {
+    "description": {
+      "formula": "3D cartography (ρ, log P, κ)",
+      "notes": "Phase space with basins and trajectories; ω₃ as stable high-κ/low-ρ attractor boosted by self-stability phases and epigenetic modulation; ω₁ as high-ρ trap."
+    }
+  }
+}

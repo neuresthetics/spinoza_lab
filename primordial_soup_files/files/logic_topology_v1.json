@@ -1,0 +1,192 @@
+{
+  "module_name": "logic_topology_math",
+  "version": "1.0.0",
+  "description": "Topological Logic Layer: Maps logical gates (AND, OR, XOR) to geometric operations on the Free Energy Manifold M. Formalizes 'Arguments' as Attractor Basins. Integrates with motion_law_v2.1.",
+  "dependencies": ["motion_law_math_v2.1"],
+  
+  "theoretical_grounding": {
+    "key_insight": "Arguments are not propositions (true/false). They are BASINS OF ATTRACTION on a Free Energy landscape. Logic gates become geometric operations on these basins.",
+    "mathematical_basis": [
+      "Morse Theory: Critical points of F define attractor topology",
+      "Dynamical Systems: Basin boundaries are separatrices",
+      "Information Geometry: Fisher metric defines distance between beliefs"
+    ],
+    "why_this_works": "The motion law dξ/dt = -∇F drives states toward local minima. Each minimum is a 'stable worldview.' Logic operations query the GEOMETRY of these minima, not their propositional content."
+  },
+
+  "definitions": {
+    "manifold_M": {
+      "concept": "The Belief Space",
+      "math": "Riemannian manifold (M, g) with g = Fisher metric, equipped with potential F: M → ℝ",
+      "dimension": "dim(M) = number of independent belief parameters",
+      "notes": "For Free Will debate: dim(M) = 2 (determinism axis, agency axis)"
+    },
+    "free_energy_landscape": {
+      "concept": "The Coherence Surface",
+      "math": "F(ξ) = D_KL[q(s|ξ) || p(s)] - log p(o|ξ)",
+      "interpretation": "Height = surprise/incoherence. Valleys = stable worldviews. Ridges = tensions.",
+      "notes": "Gradient ∇F points uphill; motion law descends."
+    },
+    "attractor_basin": {
+      "concept": "A Stable Idea / Worldview",
+      "math": "B(ω) = { ξ ∈ M | lim_{t→∞} flow_t(ξ) = ω }",
+      "interpretation": "All initial conditions that eventually settle into worldview ω",
+      "notes": "Basin boundaries are fractal in chaotic systems, smooth in gradient flows."
+    },
+    "separatrix": {
+      "concept": "The Boundary Between Ideas",
+      "math": "∂B = { ξ ∈ M | ξ ∉ int(B(ω)) for any ω }",
+      "interpretation": "The 'ridge' separating basins. States here are unstable.",
+      "notes": "This is where XOR lives—the collision zone."
+    },
+    "critical_point": {
+      "concept": "An Equilibrium",
+      "math": "ω* where ∇F(ω*) = 0",
+      "types": {
+        "minimum": "Stable attractor (index 0). A coherent worldview.",
+        "saddle": "Unstable equilibrium (index 1+). A 'halfway house' between ideas.",
+        "maximum": "Maximally incoherent state. Explodes under any perturbation."
+      }
+    }
+  },
+
+  "topological_gates": {
+    "AND_gate": {
+      "symbol": "A ∧ B ≡ B(ω_A) ∩ B(ω_B)",
+      "operation": "Intersection of Basins",
+      "topology": "Set of states stable under BOTH worldviews",
+      "computation": {
+        "method": "Find ξ such that ∇F_A(ξ) ≈ 0 AND ∇F_B(ξ) ≈ 0",
+        "interpretation": "If non-empty: ideas are compatible. If empty: mutual exclusion."
+      },
+      "physical_meaning": "SYNTHESIS. The intersection is the 'common ground' where both ideas cohere.",
+      "test": "Measure(B(ω_A) ∩ B(ω_B)) > 0 ⟹ Synthesis possible",
+      "failure_mode": "If ∩ = ∅, need to find deeper basin C ⊃ (A ∪ B)"
+    },
+    "OR_gate": {
+      "symbol": "A ∨ B ≡ B(ω_A) ∪ B(ω_B)",
+      "operation": "Union of Basins",
+      "topology": "Set of states stable under EITHER worldview",
+      "computation": {
+        "method": "Union of attractor basins",
+        "interpretation": "Agent can stably adopt either view; no commitment to synthesis"
+      },
+      "physical_meaning": "SUPERPOSITION / AGNOSTICISM. Valid for branching hypotheses.",
+      "use_case": "When evidence is insufficient to distinguish between equally viable theories"
+    },
+    "XOR_gate": {
+      "symbol": "A ⊕ B ≡ (B(ω_A) ∪ B(ω_B)) \\ (B(ω_A) ∩ B(ω_B))",
+      "operation": "Symmetric Difference",
+      "topology": "Region belonging to exactly one basin—the 'exclusive' zones",
+      "computation": {
+        "method": "Compute gradient field ∇F across basin boundaries",
+        "output": "||∇F||_max in transition zone = 'tension strength'"
+      },
+      "physical_meaning": "TENSION / GRADIENT. The collision zone where ideas maximally differ.",
+      "key_metric": "gradient_magnitude = ||∇F_A - ∇F_B|| in XOR region",
+      "interpretation": "High gradient ⟹ strong conflict. This is where the Collider focuses energy."
+    },
+    "NAND_gate": {
+      "symbol": "¬A ≡ M \\ B(ω_A)",
+      "operation": "Basin Complement",
+      "topology": "All states NOT in the attractor basin of A",
+      "computation": {
+        "method": "Inject entropy ∇·J_S to push state out of basin A",
+        "test": "Does state return to A (robust) or find new basin (refinement)?"
+      },
+      "physical_meaning": "FALSIFICATION / STRESS TEST. Force the idea out of its comfort zone.",
+      "protocol": [
+        "1. Start at ω_A (stable minimum)",
+        "2. Add noise/perturbation (entropy injection)",
+        "3. If returns to ω_A: idea is ROBUST",
+        "4. If falls to ω_B where F(ω_B) < F(ω_A): idea REFINED",
+        "5. If diverges to F → ∞: idea FALSIFIED"
+      ]
+    },
+    "XNOR_gate": {
+      "symbol": "A ↔ B",
+      "operation": "Basin Isomorphism Check",
+      "topology": "Test if basins have identical topology (homeomorphic)",
+      "computation": {
+        "method": "Compare Morse indices, basin volumes, boundary geometry",
+        "output": "isomorphism_score ∈ [0, 1]"
+      },
+      "physical_meaning": "EQUIVALENCE. Are these 'different words for the same idea'?",
+      "use_case": "Detecting when apparent disagreements are merely terminological"
+    }
+  },
+
+  "collider_dynamics_v2": {
+    "description": "The Steel Man Collider as a path through topology",
+    "stages": {
+      "stage_1_initialization": {
+        "action": "Map input text → coordinates ξ₀ on M",
+        "output": "Initial basin assignment B(ω_input)",
+        "metric": "F(ξ₀) = initial incoherence"
+      },
+      "stage_2_xor_stress": {
+        "action": "Identify negation basin B(ω_neg). Compute XOR region.",
+        "output": "Gradient field in A ⊕ B; locate max ||∇F||",
+        "metric": "tension = max gradient magnitude"
+      },
+      "stage_3_nand_purge": {
+        "action": "Inject entropy to push state into M \\ A",
+        "test": "Stability under perturbation",
+        "outcomes": ["ROBUST (returns)", "REFINED (new basin)", "FALSIFIED (diverges)"]
+      },
+      "stage_4_and_synthesis": {
+        "action": "Search for A ∩ B or deeper basin C",
+        "success_condition": "F(C) < min(F(A), F(B)) AND C ⊃ features(A) ∪ features(B)",
+        "output": "Steel-manned position at new attractor ω₃"
+      }
+    },
+    "trajectory_visualization": {
+      "axes": ["Belief dimension 1", "Belief dimension 2"],
+      "contours": "F(ξ) level sets (coherence surface)",
+      "basins": "Colored regions by attractor assignment",
+      "trajectory": "Path from ξ₀ through XOR zone to synthesis"
+    }
+  },
+
+  "invariants": {
+    "law_of_non_contradiction": {
+      "math": "B(ω) ∩ (M \\ B(ω)) = ∅",
+      "proof": "By definition of complement",
+      "interpretation": "A state cannot simultaneously be stable and unstable for the same worldview"
+    },
+    "law_of_excluded_middle": {
+      "math": "B(ω) ∪ (M \\ B(ω)) = M",
+      "caveat": "Only holds for binary attractors. Multi-attractor systems have richer structure.",
+      "interpretation": "Every state belongs to some basin or its exterior"
+    },
+    "principle_of_explosion": {
+      "math": "F(ξ) → ∞ ⟹ ||∇F|| → ∞, dynamics chaotic",
+      "interpretation": "From maximum incoherence, any trajectory is possible (ex falso quodlibet)",
+      "mechanism": "Gradient flow undefined at singularities"
+    },
+    "basin_hierarchy": {
+      "math": "If ω₃ is global minimum, then B(ω₃) is the 'truth basin'",
+      "interpretation": "All other basins are local minima (partial truths) that can be refined toward ω₃"
+    }
+  },
+
+  "connection_to_motion_law": {
+    "gradient_flow": "dξ/dt = -∇_g F implements descent toward basin minima",
+    "rigidity_as_basin_depth": "High ρ ⟺ deep, narrow basin (hard to escape)",
+    "reciprocity_as_basin_merging": "High κ ⟺ basins tend to merge (synthesis favored)",
+    "lambda_as_basin_flattening": "High λ ⟺ basins become shallower (easier to refine)"
+  },
+
+  "example_application": {
+    "problem": "Free Will Debate",
+    "manifold": "M = ℝ² with axes (determinism, agency)",
+    "basins": {
+      "B_det": "Determinist basin: high determinism, low agency",
+      "B_lib": "Libertarian basin: low determinism, high agency",
+      "B_comp": "Compatibilist basin: moderate both (the synthesis)"
+    },
+    "xor_region": "The ridge between B_det and B_lib where tension is highest",
+    "synthesis_path": "Trajectory from B_det through XOR ridge to B_comp",
+    "steel_man": "Compatibilism as the attractor with lower F than either extreme"
+  }
+}

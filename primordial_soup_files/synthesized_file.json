@@ -1,0 +1,98 @@
+{
+  "type": "synthesized_file",
+  "fileName": "unified_seed_variant_c315.17_v4.json",
+  "fullContent": {
+    "framework": {
+      "name": "Recursive Steel Man Collider (Unified Dynamics Edition)",
+      "version": "4.0",
+      "description": "A dynamical synthesis engine that unifies Logic Gates (structure) with Motion Laws (dynamics). Unlike previous versions which relied on static recursion, this framework models argument refinement as a trajectory through phase space, governed by the maximization of coherence (Conatus) and the minimization of rigidity (Entropy Export).",
+      "core_equation": {
+        "formula": "dξ/dt = ∇ log P(coherence) − ∇ρ(rigidity) − λ_eff ∇·entropy + κ * (1 + cos(φ (1-ρ)^2))",
+        "notes": "The governing equation for refining ideas. The state (ξ) evolves by increasing logical power (P), reducing dogmatic rigidity (ρ), and exporting contradictions (entropy), modulated by humble grounding (λ_eff)."
+      },
+      "definitions": [
+        {
+          "term": "Steel Man 4.0",
+          "details": "An argument that is not only logically valid (Gate-Consistent) but historically and physically robust (Hard-to-Vary) and empirically grounded (Deflationary)."
+        },
+        {
+          "term": "Reality Gate",
+          "details": "Logic gates re-mapped as physical operators. e.g., AND is not just 'true/true', it is 'Constructive Interference' or 'Necessary Intersection'."
+        },
+        {
+          "term": "The Attractor (ω₃)",
+          "details": "The target state of the collider: A low-rigidity, high-coherence argument that requires no further energy to maintain."
+        },
+        {
+          "term": "Humility Damping (D(S))",
+          "details": "A friction term applied to recursion. If an idea becomes too ungrounded (high variance from reality), this metric forces a halt or dissolution."
+        }
+      ],
+      "axioms": [
+        "A1 (Monism): All distinct arguments are modes of a single underlying reality; apparent contradictions are informational incompleteness.",
+        "A2 (Conatus): Every coherent idea strives to persist and expand its explanatory power (P).",
+        "A3 (Entropy): Closed argumentative systems accumulate errors (rigidity). Open systems must export entropy (admit faults) to survive.",
+        "A4 (Universality): The NAND gate (Universal Negation) is sufficient to deconstruct any complex fallacy into atomic truths."
+      ],
+      "collider_process": {
+        "stage_1_autopsy_and_grounding": {
+          "goal": "Deconstruction & Initialization",
+          "tools": ["First Principles", "Deflationary Check"],
+          "action": "Map natural language inputs to axiomatic primitives. Apply 'Humility Metric D(S)' to cap over-confidence immediately."
+        },
+        "stage_2_dynamical_collision": {
+          "goal": "Trajectory Stress Test",
+          "tools": ["XOR (Difference)", "Motion Law Equation"],
+          "action": "Collide the idea against its negation. Measure 'Rigidity' (ρ). If ρ is high (idea refuses to adapt), increase 'Violence' (v) of the critique until the dogma breaks or the idea dissolves."
+        },
+        "stage_3_recursive_synthesis": {
+          "goal": "Convergence to Attractor ω₃",
+          "tools": ["AND (Synthesis)", "Kappa Coupling (κ)"],
+          "action": "Bind the surviving fragments. Apply Reciprocity (κ) to align the idea with empirical reality. Iterate until ΔCoherence < 0.01 (Fixed Point reached)."
+        },
+        "stage_4_reality_check": {
+          "goal": "Invariance Testing",
+          "tools": ["Tetralemma Probe", "Isomorphism Scan"],
+          "action": "Apply the Tetralemma (Affirm, Deny, Both, Neither) to check for hidden paradoxes. Verify the idea holds true across scales (Isometric Check)."
+        }
+      },
+      "reality_gates_v2": [
+        {
+          "gate": "AND",
+          "function": "Intersection / Necessity",
+          "physics_analog": "Constructive Interference / Binding Energy",
+          "test": "Do these two premises NECESSARILY coexist? If yes, bind them."
+        },
+        {
+          "gate": "OR",
+          "function": "Union / Possibility",
+          "physics_analog": "Superposition / Branching",
+          "test": "Are these distinct valid pathways? If yes, allow branching."
+        },
+        {
+          "gate": "XOR",
+          "function": "Difference / Parity",
+          "physics_analog": "Symmetry Breaking / Gradient",
+          "test": "Where strictly do these ideas differ? Expose the gradient."
+        },
+        {
+          "gate": "NAND",
+          "function": "Universal Basis",
+          "physics_analog": "Fundamental Exclusion / Pauli Principle",
+          "test": "The universal solvent. Use to decompose complex fallacies."
+        },
+        {
+          "gate": "XNOR",
+          "function": "Equivalence / Coherence",
+          "physics_analog": "Resonance / Alignment",
+          "test": "Are these concepts Isomorphic (structurally identical)? If yes, merge."
+        }
+      ],
+      "invariants_and_safeguards": {
+        "halt_condition": "System halts if Rigidity (ρ) > 0.8 (Dogma Trap) or if Coherence Gain (ΔP) < 0.01 (Diminishing Returns).",
+        "deflationary_rule": "Any claim with >95% invariance but 0% external validation is marked 'Provisional'.",
+        "tetralemma_lock": "No synthesis is final until it resolves the 'Both' and 'Neither' states of the Tetralemma."
+      }
+    }
+  }
+}

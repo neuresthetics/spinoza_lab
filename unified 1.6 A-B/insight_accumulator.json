@@ -1,0 +1,35 @@
+{
+  "module_name": "refined_insight_capture_protocol",
+  "version": "1.5.0",
+  "description": "Enhanced protocol for capturing multidimensional insights across research fields, incorporating systematic review best practices (e.g., GRADE, FINER, PRISMA) for improved rigor, bias mitigation, and automation. Focuses on duplication avoidance, balanced assessments, and computational hooks for effectiveness.",
+  "trigger_conditions": [
+    "Patterns, interactions, or overlaps not in knowledge base; justified non-duplication via registry checks (e.g., PROSPERO analogs)."
+  ],
+  "capture_format": {
+    "sort": "by signal strength descending (leaderboard style)",
+    "signal": "Computed as weighted average: 0.3*originality + 0.3*impact_worth (normalized) + 0.2*grounding_score + 0.1*challenge_level (inverted) + 0.1*(1 - bias_score); fluctuates with updates, capped at 0.98.",
+    "no_framework_lingo": "Discipline-appropriate technical language; avoid jargon for accessibility.",
+    "structure": "JSON code block with axiom tree, sources, and networked insights",
+    "marker": "⭐ if mentioned outside insights block",
+    "insights": "Array of insight objects as leaderboard; strongest first. Include known for context; novels marked. Each with 'relationships' dictionary for graph nodes/edges.",
+    "insight_summary": "Concise, relatable summary.",
+    "insight_details": "Detailed explanation: methodology, data sources, derivation, overlaps.",
+    "novelty_marker": "⭐ for novel (relative to knowledge base/registry searches); empty for known.",
+    "relationships": "Dictionary: nodes to arrays of edges.",
+    "practical_utility": "Applicability assessment across domains.",
+    "associated_factors": "Risks, variables, comorbidities generalized.",
+    "categorization_utility": "Utility for classification/differentiation/grouping.",
+    "generalization_potential": "Analysis of cross-field adaptation strategies.",
+    "limitations": "Caveats, biases, constraints.",
+    "evolution_notes": "How insight evolves with future data/integrations.",
+    "grounding_score": "Float (0-1) via GRADE-inspired domains: RoB, imprecision, inconsistency, indirectness, publication bias; <0.5 downgrades signal 50%; derived from validations.",
+    "bias_check": "Expanded tetralemma (affirm/deny/both/neither) + probes for confirmation/publication bias; flags if unresolved.",
+    "signal_cap": "Max 0.98; auto-downgrade without grounding.",
+    "originality_assessment": "Float (0-1) with FINER descriptor (feasible, interesting, novel, ethical, relevant); e.g., 0.9='breakthrough with ethical scaling'.",
+    "impact_worth": "Tier (low/medium/high) + rationale (e.g., 'high: 20% accuracy gains in oncology'); factors ethical/practical/scalable yields.",
+    "challenge_level": "Tier (low/medium/high) + factors (e.g., 'high: petabyte data needed'); includes compute/ethics/empirics barriers.",
+    "duplication_check": "Boolean + justification: Searched registries/databases; true if novel/non-duplicative.",
+    "thematic_tags": "Array of tags via thematic analysis (e.g., automated via code tools) for clustering.",
+    "protocol_hooks": "Links to PRISMA-P style protocols for transparency; optional computational verification (e.g., SymPy for derivations)."
+  }
+}
