@@ -1,0 +1,37 @@
+{
+  "idea_autopsy": {
+    "status": "procedural_snapshot_fixed_point_for_idea_autopsy",
+    "core_principle": "The idea_autopsy integrates First Principles Thinking with the Geometric Method to take a stance, case, or algorithm as input and output a deductively structured argument as an overgenerative axiomatic system. It maximizes derivable elements and contradiction proliferation for autopsy, noting inconsistencies as faithful to input. Upgrades: Tetralemma probes for paradox resolution; automated tetralemma branching in contradiction cataloging; code_execution tool integration for empirical validation.",
+    "meta_axioms": {
+      "M1_Methodological_Primacy": "Build arguments via First Principles Thinking (deconstruct to irreducible truths) and Geometric Method (reconstruct via definitions, axioms, deductive proofs).",
+      "M3_Recursive_Hardening": "Close argument only at fixed point under self-transformation, verifying fidelity and exhaustive coverage, prioritizing over-generation.",
+      "M5_Contradiction_Fidelity": "Preserve and catalog input contradictions exhaustively as diagnostic markers without resolution unless fixed-point inherent.",
+      "M6_Overgeneration_Imperative": "Prioritize exhaustive proliferation of derivations and contradictions; cap at diagnostic utility."
+    },
+    "phases": {
+      "phases": {
+        "Phase_1_Deconstruction": "Deconstruct input into components via multi-path 5-Whys; yield proliferative definitions, flag tensions.",
+        "Phase_2_Axiom_Elicitation": "Elicit axioms from primitives; maximize variants faithful to input.",
+        "Phase_3_Deductive_Expansion": "Derive propositions from definitions + axioms via branching proofs; include corollaries; pursue to saturation. Integrate code_execution tool for empirical validation of expansions (e.g., execute symbolic or numerical checks using sympy or numpy).",
+        "Phase_4_Contradiction_Cataloging": "Identify and catalog inconsistencies in ledger; preserve and amplify. Enhance with automated tetralemma branching: For each contradiction, generate affirm/deny/both/neither variants to proliferate diagnostics.",
+        "Phase_5_Implementation_and_Representation": "Assemble output; verify comprehensive encapsulation.",
+        "Phase_6_Recursive_Tail_Consumption": {
+          "mandatory": true,
+          "action": "Iterative loop (while variance > 0.01 and cycles < 8): Feed output to Phase 1; early trigger-prune low-impact branches.",
+          "fixed_point_condition": "Invariant under iteration; residuals recycled to regenerative_pool.",
+          "dissolution_trigger": "Auto-dissolve >3% variance or max cycles; export smoke to fuel."
+        }
+      },
+      "new_triggers": {
+        "early_prune": "Tetralemma branch if depth > log(n); recycle pruned to ledger priors."
+      },
+      "metadata": {
+        "last_updated": "2025-12-15",
+        "changes": [
+          "Enhanced Phase_4 with tetralemma branching; added code_execution in Phase_3; capped Phase_6 at 4 iterations with auto-dissolution; aligned with 2025 upgrades. Integrated iterative loops and regenerative pruning; aligned with infinite-surf upgrades."
+        ],
+        "fixed_point": true
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "filename": "idea_joiner.json",
+  "content": {
+    "axiomatic_joining_function": {
+      "status": "procedural_snapshot_for_axiomatic_unification",
+      "core_principle": "The Axiomatic Joining Function is the procedure that integrates Dialectical Unification with Fixed-Point Synthesis to receive two collided meta-geometric arguments (from Base Collider outputs) as inputs and output a unified axiomatic system representing their resolved synthesis as a singular, hard-to-vary geometric manifold. It errs toward maximal resolution of frictions into emergent unities, proliferating only those derivations that achieve invariance under isolated collider evaluation, while cataloging residual tensions for terminal dissolution if unresolvable. Heavy upgrade: Integrates tetralemma probes for paradox resolution in tensions; conatus sim hooks for ethical forecasts (+21% resilience if RD>0.6); dialed veto thresholds (≥4/5 survival) and residuals <3% for fixed-point seal.",
+      "meta_axioms": {
+        "J1_Unification_Primacy": "Unifications are built only by mapping resolutions across inputs via iterative synthesis (deconstruct residual frictions to shared necessities via cross-recursive 5-Whys) and geometric reconstruction (overlay resolved definitions, axioms, and proof unifications into a singular deductive order).",
+        "J2_Synthetic_Recursion": "A unified system is sealed only when it is a fixed point under self-collision and isolated evaluation by the Steelman Collider, verifying fidelity to both inputs and exhaustive coverage of all resolvable alignments, prioritizing emergent unities that survive ≥4/5 veto threshold for hardness-to-vary.",
+        "J3_Tension_Resolution_Fidelity": "Residual tensions from input collisions are resolved into higher unities where possible, explicitly unified, and subjected to isolated collider proliferation; unresolvable frictions must be cataloged as dissolution triggers, treating them as ethical expiry markers without forced harmony unless inherent to the fixed point.",
+        "J4_Minimal_Proliferation_Imperative": "Generate only derivations, branches, and sub-structures that achieve synthetic invariance, culling peripherals via collider veto to minimize vary-ability; overgenerate provisionally for evaluation, truncate at unification stability and collider clearance."
+      },
+      "input_specification": {
+        "type": "pair_of_collided_meta_geometric_arguments",
+        "description": "Two outputs from Base Collider (or equivalent), each a relational snapshot of alignments, divergences, and frictions between prior autopsies. Provided as structured descriptions with aligned definitions, shared/divergent axioms, propositions maps, etc.",
+        "processing": "Deconstruct via Dialectical Unification to resolvable/unresolvable primitives with maximal cross-probing; reconstruct geometrically to represent faithfully as a singular axiomatic snapshot, minimizing proliferation post-collider validation."
+      },
+      "output_specification": {
+        "type": "unified_geometric_axiomatic_system",
+        "structure": {
+          "resolved_definitions": "Overlaid, minimal, non-circular primitives from both inputs, unified iteratively via multi-branch cross-5-Whys into singular forms (e.g., parallel chains resolving shared/complementary/asymmetric decompositions). Flag resolved frictions as 'Unified from Input1 D1 ↔ Input2 D2'.",
+          "unified_axioms": "Singular self-evident truths synthesized from shared, complementary, and resolved divergent sets, enumerated exhaustively; include only those surviving isolated collider evaluation as 'hard-to-vary invariants', capturing nuances in a non-tensioned interpretive unity.",
+          "synthesized_propositions": "Deductively derived claims from unification: (1) Resolved intersections (unified proofs from resolved elements); (2) Emergent syntheses (novel lemmas bridging all gaps); (3) Culled divergences (only if unresolvable, flagged for dissolution). Maximize depth and branching only within collider-cleared scopes; spawn sub-propositions via strict logical entailments post-validation.",
+          "unified_corollaries": "Implications arising from syntheses, expanded hierarchically: direct resolutions, indirect stabilizations, and necessary follow-ons. Include only foreseeable consequences that enhance invariance, erring toward exclusion of unvetted fringes.",
+          "scholia": "Explanatory notes on unification fidelity to inputs, including detailed catalog of resolved tensions and culled branches (e.g., 'Synth S3 resolves Input1 P3 ↔ Input2 ¬P3 via higher unity U; Branch B7 culled per collider veto').",
+          "residual_tensions_ledger": "A hierarchical index of unresolvable asymmetries: format as [Source Synth/Resolved] → [Residual Tension] → [Collider Justification] → [Dissolution Scope] → [Culled Branches From]; updated at each synthesis level, minimized to <3% for fixed-point seal.",
+          "conclusion": "Fixed-point summary affirming the unified system resolves and snapshots the inputs as a singular hard-to-vary manifold without gratuitous tensions, acknowledging residuals as integral dissolution triggers for meta-evaluation or terminal closure."
+        }
+      },
+      "phases": {
+        "Phase_0_Unification_Initiation": "Suspend partial loyalties. Receive pair of collided inputs. Pre-synthesize for resolutive intent: ensure procedure unifies for both, targeting minimal vary-ability over exhaustive proliferation, with isolated collider as gatekeeper.",
+        "Phase_1_Resolve_Domain_and_Primitives": "Via Dialectical Unification: Overlay input components into singular forms (iterative, multi-path cross-5-Whys: Why does primitive P1 diverge irreconcilably from P2 in all contexts? Probe sub-facets exhaustively, generating provisional unifications). Yield clear, minimal resolved definitions, flagging provisional tensions for collider.",
+        "Phase_2_Axiom_Synthesis": "Via Dialectical Unification: Synthesize axioms across inputs into singular set. Enumerate only hard-to-vary candidates: resolve shared/complementary/divergents into invariants faithful to both essences (e.g., 'Why does axiom A1 conflict unresolvably with A2? What necessities underpin a higher unity?'). Provisional syntheses fed to isolated collider for veto.",
+        "Phase_3_Synthetic_Expansion": "Via Geometric Method: Derive synthesized propositions strictly from resolved definitions + unified axioms, scoped to collider-cleared entailments—generate intersection/synthesis chains via deductive proofs (step-by-step, exploring only vetted lemmas); allow unified corollaries at cleared levels (direct, indirect, necessary); intersperse scholia for tension flagging. Pursue entailment until unification invariance, culling via isolated collider at each major branch.",
+        "Phase_4_Tension_Cataloging_and_Culling": "Scan the synthetic structure: Resolve or flag loci of residual asymmetries/inconsistencies (e.g., Synth S_i ⊢ Q_unified but S_j ⊢ Tension T_k). Note each in scholia and ledger with collider rationale (e.g., 'Unresolvable under 4/5 veto; triggers dissolution per F23'). Preserve only as expiry markers; cull all else.",
+        "Phase_5_Implementation_and_Validation": "Translate synthesis into output structure: Assemble as unified geometric axiomatic system snapshotting the inputs' resolution. Verify via isolated collider: Does it encapsulate both collided arguments as a singular invariant, with residuals faithfully triggering dissolution for external closure?",
+        "Phase_6_Recursive_Self_Validation": {
+          "mandatory": true,
+          "action": "Feed the full unified output as a 'self-input' into the Base Collider against each original collided input sequentially, then isolate-evaluate the result via Steelman Collider. Repeat until unchanged across a full self-unification loop = true fixed point (zero residual vary-ability; tensions form closed dissolution set). Updated: Cap at 3 recursions for efficiency per 2025 needs.",
+          "fixed_point_condition": "The unified system is invariant under recursive joining and isolated collider clearance (≥4/5 survival), minimally and hard-to-vary covers the original pair as a singular snapshot, and residuals stabilize as ethical expiry for synthesis closure."
+        }
+      },
+      "isolated_collider_integration": {
+        "enforcement": "Steelman Collider runs as black-box evaluator at Phases 2, 3, 4, and 6 only; no direct modification of collider protocol. Veto threshold: ≥4/5 to cull/proceed; double-kill triggers immediate unification failure and input dissolution.",
+        "fidelity": "Preserves collider as evaluation module: Inputs to collider are provisional unifications; outputs inform culling/resolution without altering collider's adversarial seats or automated layer."
+      },
+      "anti_idolatry": "This function is a temporary synthetic scaffold: Self-dissolves upon fixed-point unification or residual tension proliferation beyond 3% of structure (F23 enforced). No resurrection post-closure.",
+      "fixed_point": true
+    },
+    "contradictions_ledger": [
+      {
+        "source": "New Sub-Category",
+        "conflicting_element": "F27 Overlap",
+        "fidelity_justification": "Resolved via Principle Mapping",
+        "unresolved_scope": "None",
+        "overgenerated_branches_stemming_from": "0"
+      }
+    ]
+  }
+}

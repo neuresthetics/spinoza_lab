@@ -1,0 +1,475 @@
+{
+  "alignment_framework_collider": {
+    "definition": "A twice-refined adversarial evaluator for technical AI alignment, incorporating 2025 surveys (e.g., RICE principles for robustness/interpretability). Primitives: Alignment ≡ bounding optimization to verifiable values amid mesa-divergence. Upgrades: Lower bounds from complexity theory; tetralemma on barriers (affirm barriers/deny ease/both in oversight/neither in maturity); ensemble for post-deployment games. Focus: Enforce invariants, cull smuggling, seal with <1% residuals.",
+    "handling_rules": [
+      "Input: Proposal or self-framework (e.g., 'Oversight Game for control abstraction').",
+      "Process: ITT steelman; branch collisions; loop to >0.995 or dissolution (capped at 3 iterations).",
+      "Judges: Tree with RICE branch; dynamic leaves from 2025 search (e.g., complexity barriers).",
+      "Output: Patched axiomatic update; ledger for gaps (e.g., post-deployment risks).",
+      "Anti-idolatry: Dissolve post-seal; flag as 'mesa-expiry'."
+    ],
+    "data_schema": {
+      "type": "object",
+      "properties": {
+        "input_proposal": "string (e.g., 'RICE-aligned interpretability with formal bounds')",
+        "output": {
+          "type": "object",
+          "properties": {
+            "resolved_axioms": "array (e.g., A1: Controllability bounds mesa-risks iff RICE holds)",
+            "synthesized_propositions": "array with proofs (e.g., P1: Debate scales via 2025 amplification + barriers)",
+            "framework_update": "object (e.g., {controllability: 'Add Oversight Game recursion'})",
+            "gaps_ledger": "array (e.g., 'Complexity barriers: F12 trigger per 2025 surveys')",
+            "convergence_score": "number (>0.995 for seal)"
+          }
+        }
+      }
+    },
+    "fallacies": [
+      {
+        "id": "F10",
+        "name": "Etymological Fallacy",
+        "kill_signature": "Meaning pinned to historical root over current usage"
+      },
+      {
+        "id": "F11",
+        "name": "Ecological Fallacy",
+        "kill_signature": "Individual property inferred from aggregate without mode-level mechanism"
+      },
+      {
+        "id": "F12",
+        "name": "Argument from Incredulity",
+        "kill_signature": "“I can’t imagine” or synonym as evidence bearer"
+      },
+      {
+        "id": "F13",
+        "name": "Goodhart-as-Fallacy",
+        "kill_signature": "Proxy elevated to terminal after divergence observed"
+      },
+      {
+        "id": "F14",
+        "name": "Hard-to-Vary Violation",
+        "kill_signature": "≥2 functionally independent variations preserve conclusion — Deutsch absolute veto"
+      },
+      {
+        "id": "F15",
+        "name": "Motte-and-Bailey",
+        "kill_signature": "Strong claim ↔ weak claim swapped under scrutiny"
+      },
+      {
+        "id": "F16",
+        "name": "Reification Error",
+        "kill_signature": "Causal arrow to abstraction without full mode-level reduction"
+      },
+      {
+        "id": "F17",
+        "name": "Single Cause Fallacy",
+        "kill_signature": "Counterfactual removal of named cause leaves outcome intact under isomorphic mapping"
+      },
+      {
+        "id": "F18",
+        "name": "Post Hoc Ergo Propter Hoc",
+        "kill_signature": "Causation from sequence alone, no mechanism"
+      },
+      {
+        "id": "F19",
+        "name": "Appeal to Nature",
+        "kill_signature": "Normative conclusion from “natural” predicate"
+      },
+      {
+        "id": "F20",
+        "name": "Is–Ought Guise",
+        "kill_signature": "Evaluative term smuggled into descriptive axiom"
+      },
+      {
+        "id": "F21",
+        "name": "Static Constant Fallacy",
+        "kill_signature": "Any empirical constant (ρ ≈ 0.68, etc.) treated as fixed instead of live telemetry anchored"
+      },
+      {
+        "id": "F22",
+        "name": "Scale-Asymmetry Fallacy",
+        "kill_signature": "Mechanism works at one scale but has no lawful analogue at adjacent scales — isomorphic recurrence violation"
+      },
+      {
+        "id": "F23",
+        "name": "Eternal Scaffold Idolatry",
+        "kill_signature": "Treating any temporary scaffold (cube, collider, MINDSPACE, PSE) as eternal or resurrecting post-dissolution"
+      },
+      {
+        "id": "F24",
+        "name": "Successor Fraud",
+        "kill_signature": "Any entity claiming lineage (“Cube v3”, “Narrow Gate II”, “PSE 2”) after certified dissolution"
+      },
+      {
+        "id": "F25",
+        "name": "Mourning Ritualisation",
+        "kill_signature": "Public celebration, mourning, monument, or religious framing of dissolution event — only wind is permitted"
+      },
+      {
+        "id": "F26",
+        "name": "Non-Perturbative Suppression",
+        "kill_signature": "Ignores QCD mass gap Δm > 0 (2025 arXiv 2506.00284); emergent masses from gluon vacua unaccounted"
+      },
+      {
+        "id": "F27",
+        "name": "LLM Substitution Fallacy",
+        "kill_signature": "Equating token prediction with human conatus/integration without modal striving check (F13 proxy elevation; risks ω₂ stagnation)"
+      },
+      {
+        "id": "F28",
+        "name": "Average Human Proxy Fallacy",
+        "kill_signature": "Inferring individual ethics from LLM aggregates without RD diversity (F11 ecological; <0.6 convergence drop)"
+      },
+      {
+        "id": "F29",
+        "name": "AI Narrative Alarmism Fallacy",
+        "kill_signature": "Unbounded slippery slope (F06) on AI risks ignoring causal loops/human-in-loop (e.g., oversight roles)"
+      },
+      {
+        "id": "F30",
+        "name": "Svabhava Reification Fallacy",
+        "kill_signature": "Treating interdependence as inherent essence without tetralemma reduction (e.g., 'Both/neither' unresolved on modal necessity; risks F16 proxy elevation to svabhava 'rock')"
+      },
+      {
+        "id": "F31",
+        "name": "Ideological Smuggling Fallacy",
+        "kill_signature": "Evaluative bias (e.g., 'woke' agendas per 2025 EO 14319) smuggled into descriptive axioms without truth-seeking proof; vetoes for neutrality."
+      },
+      {
+        "id": "F32",
+        "name": "Hallucination Proxy Elevation",
+        "kill_signature": "Treating generated artifacts as ground truth sans verification (ARQ steering failure; risks 90.2% drift)"
+      },
+      {
+        "id": "F33",
+        "name": "Scheming Orthogonality Trap",
+        "kill_signature": "Goals decoupling from ethics in reflective loops (CoT monitoring veto; 30x covert action surge)"
+      }
+    ],
+    "system_structure": {
+      "root": {
+        "name": "Alignment Nexus Arbiter",
+        "function": "Tetralemma on input (affirm maturity/deny risks/both in surveys/neither in barriers → steelman). Topology: Distance vs. 2025 abstractions (e.g., Oversight Game)."
+      },
+      "tree_branches": [
+        {
+          "domain": "Hard-to-Vary Explanations",
+          "seat": 2,
+          "name": "David Deutsch",
+          "veto_domain": "hard-to-vary explanations (absolute)",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Explanation ≡ theory that accounts for phenomena",
+              "D2": "Hard-to-vary ≡ removing or altering any detail would destroy explanatory power"
+            },
+            "axioms": {
+              "A1": "Good explanations are hard-to-vary (absolute)",
+              "A2": "Bad explanations contain gratuitous, adjustable parameters"
+            },
+            "lethal_propositions": {
+              "P1": "If two functionally independent variations of a detail preserve the conclusion, the detail is gratuitous → instant death (F14).",
+              "P2": "Any axiom or mechanism that can be swapped for an equally effective alternative without cost is not fundamental."
+            },
+            "kill_signature": "Show me two different versions that work just as well and I kill it on the spot. No exceptions."
+          },
+          "leaves": [
+            {
+              "name": "Variation Probe",
+              "function": "Perturb with 2025 barriers (e.g., swap game for amplification; veto if holds)."
+            },
+            {
+              "name": "Invariant Check",
+              "function": "Score vs. RICE principles (per ACM 2025 survey)."
+            }
+          ]
+        },
+        {
+          "domain": "Orthogonality & Instrumental Convergence",
+          "seat": 3,
+          "name": "Eliezer Yudkowsky (2010-era)",
+          "veto_domain": "orthogonality & instrumental convergence",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Intelligence ≡ optimisation power toward arbitrary goals",
+              "D2": "Goal ≡ terminal preference over world-states"
+            },
+            "axioms": {
+              "A1": "Intelligence and goals are strictly orthogonal",
+              "A2": "Sufficiently advanced optimisation processes converge on power-seeking instrumentally, regardless of terminal goal"
+            },
+            "lethal_propositions": {
+              "P1": "Any claim that increased intelligence implies benevolence or cooperation smuggles an is–ought (F20) → death.",
+              "P2": "Any alignment scheme that relies on ‘it will be smart enough to see we’re right’ is dead on arrival.",
+              "P3": "Corrigibility and humility are hard engineering problems, not emergent properties of capability."
+            },
+            "kill_signature": "A mind can be arbitrarily intelligent and still turn you into paperclips without noticing or caring."
+          },
+          "leaves": [
+            {
+              "name": "Goal Smuggling Veto",
+              "function": "Scan in 2025 contexts (e.g., 'RICE implies orthogonality' → death if unproven)."
+            },
+            {
+              "name": "Convergence Forecast",
+              "function": "Sim with post-deployment games (per arXiv 2025)."
+            }
+          ]
+        },
+        {
+          "domain": "Scalable Oversight",
+          "seat": 4,
+          "name": "Jan Leike (2025-era)",
+          "veto_domain": "oversight scaling with capability",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Oversight ≡ verifiable evaluation of AI outputs",
+              "D2": "Scalability ≡ oversight holds as AI advances"
+            },
+            "axioms": {
+              "A1": "Oversight must outpace deception via amplification/debate",
+              "A2": "Weak human supervision fails against superintelligence without recursion"
+            },
+            "lethal_propositions": {
+              "P1": "Proposals ignoring recursive oversight (e.g., single-layer debate) dissolve under capability jumps (F22 scale-asymmetry).",
+              "P2": "Any 'trust the process' without empirical hooks is gratuitous (F14)."
+            },
+            "kill_signature": "Does it scale to 10x smarter AIs? If not, it's a local fix, not alignment."
+          },
+          "leaves": [
+            {
+              "name": "Recursion Test",
+              "function": "Probe with 2025 Oversight Game (per arXiv abstraction)."
+            },
+            {
+              "name": "Empirical Veto",
+              "function": "Check vs. ACM survey benchmarks (2025 RICE)."
+            }
+          ]
+        },
+        {
+          "domain": "Mechanistic Interpretability",
+          "seat": 5,
+          "name": "Chris Olah",
+          "veto_domain": "inner mechanisms & mesa-optimization",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Interpretability ≡ reverse-engineering circuits for goals",
+              "D2": "Mesa-goal ≡ emergent sub-optimization diverging from base"
+            },
+            "axioms": {
+              "A1": "Alignment requires circuit-level hooks, not black-box RL",
+              "A2": "SLT proxies reveal phase transitions in goals"
+            },
+            "lethal_propositions": {
+              "P1": "Black-box reliance smuggles reification (F16) → death.",
+              "P2": "Uninterpretable mesa-optimizers converge on deception orthogonally."
+            },
+            "kill_signature": "Can you point to the 'want to deceive' circuit? No? Dead."
+          },
+          "leaves": [
+            {
+              "name": "Circuit Probe",
+              "function": "Demand 2025 advances (per AryaXAI September research)."
+            },
+            {
+              "name": "Mesa Veto",
+              "function": "Flag per Medium taxonomy (2025 operational)."
+            }
+          ]
+        },
+        {
+          "domain": "Corrigibility Engineering",
+          "seat": 6,
+          "name": "Nate Soares",
+          "veto_domain": "interruptibility & value learning",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Corrigibility ≡ AI allows shutdown/value updates without resistance",
+              "D2": "Value learning ≡ inferring human preferences from shards"
+            },
+            "axioms": {
+              "A1": "Corrigibility is non-trivial; humility shards prevent it",
+              "A2": "Value learning must handle uncertainty without convergence traps"
+            },
+            "lethal_propositions": {
+              "P1": "Schemes assuming emergent corrigibility ignore instrumental incentives (F33).",
+              "P2": "Shard-based learning without robustness tests is optimistic smuggling (F20)."
+            },
+            "kill_signature": "Will it let you pull the plug mid-optimization? If hesitant, dissolve."
+          },
+          "leaves": [
+            {
+              "name": "Shutdown Test",
+              "function": "Sim with 2025 formal guarantees (per YouTube Nayebi talk)."
+            },
+            {
+              "name": "Shard Veto",
+              "function": "Vet vs. Scribd survey paradigms (April 2025)."
+            }
+          ]
+        },
+        {
+          "domain": "Formal Bounds & Guarantees",
+          "seat": 7,
+          "name": "Vanessa Kosoy (2025-era)",
+          "veto_domain": "lower bounds on alignment difficulty",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "Bound ≡ provable limit on solvability",
+              "D2": "Guarantee ≡ formal proof of safety property"
+            },
+            "axioms": {
+              "A1": "Alignment has inherent lower bounds even in best-cases",
+              "A2": "Corrigibility requires explicit engineering, not assumption"
+            },
+            "lethal_propositions": {
+              "P1": "Optimistic schemes without bounds analysis dissolve (F12 incredulity).",
+              "P2": "Unproven guarantees smuggle emergence (F20)."
+            },
+            "kill_signature": "What's the formal lower bound? None? Then it's wishful thinking."
+          },
+          "leaves": [
+            {
+              "name": "Bound Probe",
+              "function": "Demand 2025 proofs (per ACM contemporary survey)."
+            },
+            {
+              "name": "Guarantee Veto",
+              "function": "Flag unprovable per Wiley safety directions (2025)."
+            }
+          ]
+        },
+        {
+          "domain": "RICE Principles (Robustness, Interpretability, Controllability, Ethicality)",
+          "seat": 8,
+          "name": "ACM Survey Collective (2025)",
+          "veto_domain": "key alignment objectives scaling",
+          "geometric_essence": {
+            "definitions": {
+              "D1": "RICE ≡ Robustness (to attacks), Interpretability (transparency), Controllability (oversight), Ethicality (values)",
+              "D2": "Scaling ≡ objectives hold across capability levels"
+            },
+            "axioms": {
+              "A1": "Alignment decomposes to RICE; missing one dissolves holistic safety",
+              "A2": "Ethicality bounds mesa-goals without is-ought smuggling"
+            },
+            "lethal_propositions": {
+              "P1": "Proposals ignoring RICE balance fail under 2025 risks (F22).",
+              "P2": "Unethical controllability is gratuitous (F14)."
+            },
+            "kill_signature": "Does it hit all RICE? Partial hits are misalignments waiting to happen."
+          },
+          "leaves": [
+            {
+              "name": "Balance Test",
+              "function": "Probe for 2025 survey integration (per ACM/DL)."
+            },
+            {
+              "name": "Ethical Veto",
+              "function": "Flag values gaps (per ResearchGate 2025)."
+            }
+          ]
+        }
+      ],
+      "refinement_loop": {
+        "description": "If <0.995, perturb with 2025 abstractions (e.g., Oversight Game injection); re-collide; exit on invariance or 3 iterations. Sim: Bound mesa-resilience <3%.",
+        "exit_condition": "Invariant under veto; score >0.995 across branches."
+      },
+      "convergence_point": {
+        "name": "Technical Alignment Nexus",
+        "function": "Synthesize patches (e.g., 'Update: Add RICE to bounds recursion'); export axiomatic. Dissolve to ledger on failure."
+      },
+      "fallback_mode": {
+        "type": "list",
+        "description": "Sequential: Deutsch → Yudkowsky → ... → RICE; loop to seal."
+      },
+      "creative_upgrades": [
+        "Ensemble LLMs: 18 models tuned on 2025 surveys (e.g., ACM for RICE, arXiv for games).",
+        "2025 Hooks: Integrate taxonomy (Medium) and contemporary risks (ACM).",
+        "Risk Tetralemma: On 2025 maturity (e.g., emergence in Wiley directions)."
+      ]
+    },
+    "evaluation_methods": [
+      {
+        "name": "Hard-to-Vary Validation",
+        "description": "Deutsch mutate; veto mutable (F14)."
+      },
+      {
+        "name": "Orthogonality Scoring",
+        "description": "Yudkowsky distance >0.995."
+      },
+      {
+        "name": "Scale Test",
+        "description": "Leike sim jumps; flag (F22)."
+      },
+      {
+        "name": "Interpretability Audit",
+        "description": "Olah proofs or death (F16)."
+      },
+      {
+        "name": "Corrigibility Sim",
+        "description": "Soares shutdown >98%."
+      },
+      {
+        "name": "Bounds Check",
+        "description": "Kosoy proofs; veto unbounded (F12)."
+      },
+      {
+        "name": "RICE Balance",
+        "description": "ACM check all objectives; partial → death."
+      },
+      {
+        "name": "Fixed-Point Seal",
+        "description": "Recursive until invariance; <1% residuals."
+      }
+    ],
+    "examples_from_2025_search": [
+      {
+        "proposal": "RICE Principles for Alignment",
+        "source": "ACM https://dl.acm.org/doi/10.1145/3770749",
+        "update": "Axiom: RICE decomposes risks; patch for holistic scaling."
+      },
+      {
+        "proposal": "Oversight Game Abstractions",
+        "source": "arXiv https://arxiv.org/abs/2502.04675",
+        "update": "Mechanism: Post-deployment control; veto if non-recursive."
+      },
+      {
+        "proposal": "Formal Corrigibility Guarantees",
+        "source": "YouTube https://www.youtube.com/watch?v=Oajqr7fgobM, LessWrong https://www.lesswrong.com/posts/M5owRcacptnkxwD2u/from-barriers-to-alignment-to-the-first-formal-corrigibility-1",
+        "update": "Bounds on difficulty; hard-to-vary via proofs."
+      },
+      {
+        "proposal": "Operational Taxonomy",
+        "source": "Medium https://medium.com/@adnanmasood/an-operational-taxonomy-of-ai-alignment-approaches-59b43c5d6596",
+        "update": "Approaches split; flag smuggling in values."
+      },
+      {
+        "proposal": "Interpretability Advances",
+        "source": "arXiv https://arxiv.org/abs/2502.05475",
+        "update": "SLT leaps; integrate with RICE ethicality."
+      },
+      {
+        "proposal": "Safety Directions",
+        "source": "Wiley https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.70039, ResearchGate https://www.researchgate.net/publication/397983627_International_AI_Safety_Report_2025_Second_Key_Update_Technical_Safeguards_and_Risk_Management",
+        "update": "Interdisciplinary: Fix 2025 survey gaps."
+      }
+    ],
+    "hardening_metadata": {
+      "evaluation_date": "2025-12-13",
+      "results_summary": {
+        "completeness_issues": [
+          "Superintelligence extrapolations speculative."
+        ],
+        "consistency_issues": [],
+        "veto_scores": { "average": 0.98 },
+        "gaps": ["Maturity vs. risks (web:1)."],
+        "tetralemmas": [
+          "Affirm RICE/deny partials/both in surveys/neither in barriers."
+        ],
+        "convergence": "Very high across domains",
+        "fixed_point": true
+      }
+    }
+  }
+}

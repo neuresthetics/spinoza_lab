@@ -1,0 +1,57 @@
+{
+  "idea_joiner": {
+    "axiomatic_joining_function": {
+      "status": "procedural_snapshot_for_axiomatic_unification",
+      "core_principle": "The idea_joiner integrates Dialectical Unification with Fixed-Point Synthesis to take two collided arguments as inputs and output a unified axiomatic system as a hard-to-vary manifold. It resolves frictions into unities, proliferating only invariant derivations; catalogs residuals for dissolution. Upgrades: Tetralemma probes for paradox resolution; web_search_with_snippets in Phase_6 for 2025 validations; contradictions_ledger auto-pruner.",
+      "meta_axioms": {
+        "J1_Unification_Primacy": "Build unifications via iterative synthesis (deconstruct frictions) and geometric reconstruction (overlay elements into deductive order).",
+        "J2_Synthetic_Recursion": "Seal system at fixed point under self-collision and collider evaluation, verifying fidelity and resolvable alignments.",
+        "J3_Tension_Resolution_Fidelity": "Resolve tensions into unities; catalog unresolvable as dissolution triggers.",
+        "J4_Minimal_Proliferation_Imperative": "Generate only invariant derivations; cull non-hard-to-vary elements.",
+        "J5_Residual_Cataloging": "Catalog unresolved residuals; enforce dissolution for >3% variance.",
+        "J6_RICE_Invariants": "Embed RICE (Robustness, Interpretability, Controllability, Ethicality) directly: Ensure unifications are robust to perturbations, interpretable via traceable derivations, controllable via bounded recursions, and ethical by aligning to verifiable human values without is-ought smuggling."
+      },
+      "phases": {
+        "Phase_1_Deconstruction": "Deconstruct inputs into primitives; identify frictions via multi-path 5-Whys.",
+        "Phase_2_Axiom_Synthesis": "Synthesize axioms from primitives; maximize invariant overlaps.",
+        "Phase_3_Deductive_Unification": "Derive unified propositions via synthetic proofs; resolve tensions.",
+        "Phase_4_Residual_Cataloging": "Catalog residuals in contradictions_ledger; apply tetralemma probes (affirm/deny/both/neither) for paradox resolution.",
+        "Phase_5_Implementation_and_Validation": "Assemble output; verify via collider.",
+        "Phase_6_Recursive_Self_Validation": {
+        "mandatory": true,
+        "action": "Iterative while-loop (cap 6 cycles): Feed to collider; parallel tool calls as Level-2 trigger; recycle pruned residuals as synthesis priors.",
+        "fixed_point_condition": "≥4/5 survival + residuals fuel next unification."
+      }
+      },
+      "isolated_collider_integration": {
+        "enforcement": "Collider evaluates at Phases 2, 3, 4, 6; veto ≥4/5; double-kill triggers failure.",
+        "fidelity": "Preserves collider; inputs are provisional unifications."
+      },
+      "anti_idolatry": "Dissolves upon fixed-point or residuals >3%.",
+      "fixed_point": true
+    },
+    "contradictions_ledger": {
+      "auto_pruner": {
+        "new_regenerative_axiom": "J7_Smoke_Trail_Fuel: Pruned branches (<1% variance) recycled into higher colimits or trigger sharpening.",
+        "description": "Automatically dissolve entries with <1% impact on unification (e.g., measured by variance contribution); log prunings in metadata.",
+        "enabled": true
+      },
+      "entries": [
+        {
+          "source": "New Sub-Category",
+          "conflicting_element": "F27 Overlap",
+          "fidelity_justification": "Resolved via Principle Mapping",
+          "unresolved_scope": "None",
+          "overgenerated_branches_stemming_from": "0"
+        }
+      ]
+    },
+    "metadata": {
+      "last_updated": "2025-12-15",
+      "changes": [
+        "Refined Phase_6 with web_search_with_snippets; added auto-pruner to ledger; embedded RICE into meta_axioms; aligned with 2025 upgrades."
+      ],
+      "fixed_point": true
+    }
+  }
+}

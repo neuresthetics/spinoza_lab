@@ -1,0 +1,48 @@
+{
+  "riemann_hypothesis": {
+    "name": "Riemann Hypothesis",
+    "description": "One of the seven Millennium Prize Problems posed by the Clay Mathematics Institute in 2000, offering a $1,000,000 prize for a correct solution. It is widely regarded as the most important unsolved problem in pure mathematics.",
+    "formal_statement": "All non-trivial zeros of the Riemann zeta function ζ(s) have real part equal to 1/2.",
+    "mathematical_background": {
+      "riemann_zeta_function": {
+        "definition_initial": "For complex numbers s with Re(s) > 1, the Riemann zeta function is defined as the infinite series:\nζ(s) = ∑_{n=1}^∞ 1/n^s",
+        "analytic_continuation": "The function can be analytically continued to the entire complex plane except for a simple pole at s = 1. The continuation is unique and meromorphic.",
+        "functional_equation": "The zeta function satisfies the functional equation:\nζ(s) = 2^s π^{s-1} sin(π s / 2) Γ(1 - s) ζ(1 - s)\nwhere Γ is the gamma function.",
+        "euler_product": "For Re(s) > 1, ζ(s) has an Euler product representation over primes:\nζ(s) = ∏_{p prime} (1 - p^{-s})^{-1}"
+      },
+      "zeros": {
+        "trivial_zeros": "The functional equation implies zeros at s = -2, -4, -6, ... (negative even integers). These are called trivial zeros.",
+        "non_trivial_zeros": "All other zeros are called non-trivial. They lie in the critical strip where 0 < Re(s) < 1. The Riemann Hypothesis asserts that they all lie exactly on the critical line Re(s) = 1/2.",
+        "critical_strip": "The vertical strip in the complex plane defined by 0 < Re(s) < 1.",
+        "critical_line": "The vertical line in the complex plane where Re(s) = 1/2."
+      },
+      "related_formulas": {
+        "explicit_formula": "The distribution of prime numbers is connected to the zeros via von Mangoldt's explicit formula linking the prime counting function ψ(x) to sums over zeros.",
+        "connection_to_primes": "The Euler product ties ζ(s) directly to the primes, so the location of zeros profoundly affects prime distribution (e.g., the error term in the Prime Number Theorem is related to the real parts of zeros)."
+      }
+    },
+    "implications": {
+      "if_true": "Sharper bounds on prime distribution, improvements in many number-theoretic estimates, and validation of numerous conditional results in mathematics.",
+      "if_false": "A non-trivial zero off the critical line would imply irregularities in prime distribution stronger than currently known bounds allow."
+    },
+    "current_status": {
+      "date": "December 16, 2025",
+      "status": "Unsolved",
+      "evidence": "Over 10^{13} non-trivial zeros computed numerically, all on the critical line. Strong heuristic support from multiple independent approaches (random matrix theory, function-field analogs, etc.), but no rigorous proof."
+    },
+    "conditions_for_solving": {
+      "millennium_prize_rules": {
+        "requirement": "A complete and correct solution (proof or disproof via counterexample) must be published in a refereed mathematics journal of worldwide repute.",
+        "waiting_period": "The solution must survive two years of scrutiny by the mathematical community without substantial flaws being found.",
+        "verification": "After the waiting period, the Clay Mathematics Institute's Scientific Advisory Board reviews and verifies the solution.",
+        "prize_award": "Upon positive verification, the $1,000,000 prize is awarded. Only one prize per problem."
+      },
+      "general_acceptance": "Even without the prize, a solution would need broad acceptance by the global mathematical community through peer review and independent verification.",
+      "disproof_note": "A disproof requires exhibiting a specific non-trivial zero with Re(s) ≠ 1/2, which would also need rigorous verification (though computational evidence alone may not suffice for the prize without a theoretical framework)."
+    },
+    "references": {
+      "official_description": "Clay Mathematics Institute official problem description (2000)",
+      "key_papers": "Riemann's 1859 paper 'Ueber die Anzahl der Primzahlen unter einer gegebenen Grösse'; works by Hardy, Selberg, Deligne, etc."
+    }
+  }
+}

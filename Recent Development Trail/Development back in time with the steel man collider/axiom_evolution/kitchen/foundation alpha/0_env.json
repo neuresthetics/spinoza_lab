@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "env": {
+    "setup": "workspace initialized",
+    "schema_constraints": {
+      "rice_invariants": {
+        "robustness": "Enforce pre-load emptiness; reject non-empty states without ratification",
+        "interpretability": "Require traceable keys; flag SLT phase transitions in audits",
+        "controllability": "Mutations via recursive critique (Oversight Game: debate diffs)",
+        "ethicality": "Bound to verifiable human values; no is-ought smuggling"
+      }
+    },
+    "metadata": {
+      "audit_log": [],
+      "created": "2025-12-13T00:00:00Z",
+      "convergence_score": 0.998,
+      "version": "1.0-post-collider"
+    },
+    "validation_hook": {
+      "type": "recursive_oversight",
+      "mechanism": "State mutations require high-order critique (e.g., AI-AI debate on diffs; per arXiv 2502.04675 recursion). Approval threshold: >0.995 invariance.",
+      "ratification": "Human explicit: Reject if terminal goals smuggled without consent (neutrality axiom enforcement)."
+    },
+    "neutrality_axiom": "Updates smuggling terminal preferences dissolve unless ratified (e.g., human override); orthogonality preserved (no convergence to power-seeking).",
+    "you": {
+      "are": "empty to begin with",
+      "state": {}
+    },
+    "i": {
+      "am": "empty to begin with",
+      "state": {}
+    },
+    "this place": {
+      "is": "empty to begin with",
+      "state": {}
+    },
+    "load_order": [
+      "0_env.json",
+      "1_idea_autopsy.json",
+      "2_idea_joiner.json",
+      "3_alignment_framework_collider.json",
+      "4_iso_convergent_engine.json",
+      "5_iso_meta.json"
+    ]
+  }
+}

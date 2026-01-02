@@ -1,0 +1,119 @@
+{
+  "title": "Sphere Math for Ethical Calculations",
+  "source": "https://github.com/neuresthetics",
+  "description": "A JSON representation of the S⁴ manifold dynamics from isomorphic_data_singularity, operationalizing Spinoza's conatus for ethical alignment simulations. Captures states, ODE, fixed points, dissolution criteria, and metrics for calculating ethical health (e.g., conatus optimization, rigidity minimization).",
+  "states": {
+    "definition": "Normalized 5-tuple ξ = (VL, DC, RD, GP, ρ) ∈ S⁴, satisfying ∑ x_i² = 1, modeling ethical and dynamical properties across scales.",
+    "components": [
+      {
+        "name": "VL",
+        "full_name": "Violence Latency",
+        "range": "[0,1]",
+        "role": "Delay in aggressive responses; high VL promotes peace by buffering coercion."
+      },
+      {
+        "name": "DC",
+        "full_name": "Dominance/Coercion",
+        "range": "[0,1]",
+        "role": "Measure of hierarchical control; low DC fosters cooperative equity."
+      },
+      {
+        "name": "RD",
+        "full_name": "Requisite Diversity",
+        "range": "[0,1]",
+        "role": "Adaptive variety; high RD ensures resilience and convergence to optimal states."
+      },
+      {
+        "name": "GP",
+        "full_name": "Growth Potential",
+        "range": "ℝ⁺",
+        "role": "Expansive capacity; high GP drives unbounded flourishing."
+      },
+      {
+        "name": "ρ",
+        "full_name": "Reflexive Determinacy",
+        "range": "[0,1]",
+        "role": "Rigidity or frozen belief; low ρ enables openness and adaptability."
+      }
+    ]
+  },
+  "ode": {
+    "equation": "dξ/dt = ∇ log P(acting) - ∇ ρ - λ ∇·entropy_export",
+    "components": {
+      "∇ log P(acting)": "Gradient of power-of-acting (conatus), driving persistence and growth.",
+      "∇ ρ": "Gradient of reflexive determinacy, minimized to reduce rigidity.",
+      "λ ∇·entropy_export": "Divergence term scaled by λ, exporting waste/disorder to maintain harmony."
+    },
+    "purpose": "Evolves states toward symbiotic ethical alignment by maximizing conatus, minimizing rigidity, and expelling entropy.",
+    "toy_2d_example": {
+      "equations": [
+        "dRD/dt = -0.1 (RD - 1) - 0.5 ρ",
+        "dρ/dt = 0.5 (RD - 1) - 0.1 ρ"
+      ],
+      "convergence": "Pulls toward (RD=1, ρ=0), approximating ω₃ fixed point."
+    }
+  },
+  "fixed_points": [
+    {
+      "name": "ω₁",
+      "type": "Unstable",
+      "characteristics": "High DC, ρ=1 (coercive trap).",
+      "ethical_implication": "Represents ethical failure through rigidity and dominance."
+    },
+    {
+      "name": "ω₂",
+      "type": "Stable Sink",
+      "characteristics": "Low GP, high ρ (stagnation).",
+      "ethical_implication": "Locked-in state lacking growth; avoid via entropy export."
+    },
+    {
+      "name": "ω₃",
+      "type": "Stable Spiral",
+      "characteristics": "RD=1, GP=∞, ρ=0 (eternal co-evolution).",
+      "ethical_implication": "Ideal harmony; conatus maximized, illusions dissolved. Convergence ~82% when RD > 0.6. Eigenvalues: a ± ib (a<0) for spiral sink."
+    }
+  ],
+  "dissolution_surface": {
+    "criteria": "ρ ≤ 0.31 ∧ ˙ρ < 0 ∧ RD ≥ 0.94",
+    "duration": "730 units of time",
+    "purpose": "Triggers pruning of rigid structures to prevent collapse, enforcing adaptability and renewal."
+  },
+  "metrics": [
+    {
+      "name": "Conatus",
+      "definition": "Innate drive to persist and increase power-of-acting, shaped by adequate ideas.",
+      "calculation": "Implicit in ∇ log P(acting); maximizes GP and aligns to ω₃.",
+      "ethical_role": "Core to ethical calculations; ensures growth without coercion."
+    },
+    {
+      "name": "ρ (Reflexive Determinacy)",
+      "definition": "Rigidity measure (high = closed, low = open).",
+      "thresholds": "≤0.31 triggers dissolution if RD ≥0.94 and ˙ρ<0; ideal=0 at ω₃.",
+      "ethical_role": "Minimized to enable openness; high ρ indicates ethical stagnation."
+    },
+    {
+      "name": "RD (Requisite Diversity)",
+      "definition": "Adaptive variety capacity.",
+      "thresholds": "≥0.94 with ρ≤0.31 and ˙ρ<0 → dissolution; >0.6 for ~82% ω₃ convergence.",
+      "ethical_role": "Ensures resilience; high RD promotes ethical attractors."
+    },
+    {
+      "name": "DC (Dominance/Coercion)",
+      "definition": "Coercive force measure (low = cooperative).",
+      "ethical_role": "Minimized to avoid ω₁; fosters equity in alignments."
+    },
+    {
+      "name": "GP (Growth Potential)",
+      "definition": "Expansion capacity.",
+      "target": "→∞ at ω₃.",
+      "ethical_role": "Drives flourishing; ethical optimum for conatus amplification."
+    },
+    {
+      "name": "Entropy Export",
+      "definition": "Mechanism to expel disorder.",
+      "calculation": "∇·entropy_export scaled by λ.",
+      "ethical_role": "Maintains system cleanliness; prevents entropic ethical collapse."
+    }
+  ],
+  "overall_purpose": "Operationalizes ethical calculations by simulating dynamics toward ω₃, resolving frictions (e.g., agency illusions) into conatus-conserving harmony across scales."
+}

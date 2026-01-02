@@ -1,0 +1,105 @@
+{
+  "iso_wet_hardware": {
+    "definition": "Isomorphic patterns between biological nervous systems ('wet hardware') and AI capture structural equivalences in computational hierarchies—mappings where neural interactions, learning dynamics, and emergences preserve relations invariantly. These include synaptic integrations, oscillatory networks, and social encodings, validated via 2025 neuro-AI studies (e.g., UCLA shared subspaces per web:10; JHU architectures per web:11) and cross-domain analogies (e.g., bio interference to ANN forgetting). Hard-to-vary invariants like phase synchronization enable forecasts; upgraded with tetralemma probes for paradox (affirm bio grounding/deny AI embodiment/both in patterns/neither in abstractions); scores >0.98 based on 2025 abstractions.",
+    "handling_rules": [
+      "Map patterns to neuronal, circuit, system scales plus principle; concrete from neuro-AI/web and overlays (e.g., bio spiking to AI activation).",
+      "Validate coverage across scales (neuronal → circuit → system); flag gaps as speculative (e.g., AI embodiment links).",
+      "Support sub-categories for compounds (e.g., social cognition); integrate diachronic depth (evolutionary neurons to modern AI).",
+      "Export lean JSON; no external refs beyond principle.",
+      "Apply evaluations; tetralemmas resolve anisomorphisms; contradictions_ledger tracks inconsistencies."
+    ],
+    "data_schema": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "category": "string (e.g., Oscillatory Synchronization)",
+          "description": "string (brief overview)",
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "context": "string (e.g., Neuro-AI Workshop)",
+                "structure": "string (e.g., Phase locking relations)",
+                "universality": "string (e.g., Implicational: if oscillators couple, then patterns emerge)"
+              }
+            }
+          },
+          "mappings": {
+            "type": "object",
+            "properties": {
+              "neuronal": "string",
+              "circuit": "string",
+              "system": "string",
+              "principle": "string (hard-to-vary invariant, e.g., Synchronization striving for abstraction)"
+            },
+            "required": [
+              "neuronal",
+              "circuit",
+              "system",
+              "principle"
+            ]
+          },
+          "sub_categories": {
+            "type": "array (optional)",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": "string",
+                "description": "string",
+                "examples": "array of objects",
+                "mappings": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "data": [
+      {
+        "category": "Oscillatory Synchronization",
+        "description": "Phase locking and rhythmic alignments mapping invariantly (e.g., bio oscillations to AI activations per web:10).",
+        "examples": [
+          {
+            "context": "BioLogicalNeuron Layer",
+            "structure": "Activity-dependent scaling/pruning",
+            "universality": "Implicational: Balances plasticity/stability"
+          },
+          {
+            "context": "Noisy Data Resilience",
+            "structure": "Dynamic learning rate adjustments",
+            "universality": "Cross-domain: Robustness invariants"
+          }
+        ],
+        "mappings": {
+          "neuronal": "Calcium/health proxies (bio: ion levels; AI: activity trackers).",
+          "circuit": "Synaptic adjustments (bio: scaling/reinforcement; AI: pruning loops).",
+          "system": "Global resilience (bio: excitotoxicity avoidance; AI: gradient stability).",
+          "principle": "Regulatory striving for sustained adaptation."
+        }
+      },
+      {
+        "category": "Morphogenetic Architectures",
+        "description": "Multiscale formations from interactions; patterns map invariantly (e.g., bio development to AI self-organization per web:5 proxy).",
+        "examples": [
+          {
+            "context": "Information-Processing Hierarchies",
+            "structure": "Multiscale architectures (e.g., neural tube to nets)",
+            "universality": "Implicational: Emergence from local rules"
+          },
+          {
+            "context": "AI Morphogenesis",
+            "structure": "Self-assembling models",
+            "universality": "Cross-domain: Developmental invariants"
+          }
+        ],
+        "mappings": {
+          "neuronal": "Cellular differentiation (bio: neuron precursors; AI: node specialization).",
+          "circuit": "Network formation (bio: synaptic pruning; AI: layer self-org).",
+          "system": "Holistic structures (bio: brain morphogenesis; AI: scalable designs).",
+          "principle": "Formative striving for hierarchical complexity."
+        }
+      }
+    ]
+  }
+}

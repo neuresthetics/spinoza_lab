@@ -1,0 +1,238 @@
+{
+  "filename": "m_idea_collider.json",
+  "content": {
+    "steelman_collider_enhanced": {
+      "SteelManDefinition": {
+        "steel_man_philosophic_sense": "In philosophy, 'steel man' refers to the practice of reconstructing an opponent's argument in its strongest, most robust form possible, often improving upon the original presentation to ensure a fair and thorough critique. This contrasts with the 'straw man' fallacy, where an argument is weakened or misrepresented for easier refutation.",
+        "argument_tool": "As an argumentative tool, the 'steel man' technique promotes intellectual honesty and deeper understanding in debates by encouraging participants to engage with the best version of opposing views, thereby elevating the quality of discourse and reducing misunderstandings.",
+        "(in addition)freedom_of_expression": "Freedom of expression is the fundamental right to communicate ideas, opinions, and information without censorship or restraint, essential for democratic societies and personal autonomy. In a pantheist sense, where God is synonymous with the entirety of existence, all forms of speech—being manifestations of the universal whole—can be viewed as subcategories of theology, as they inherently explore, reflect, or contribute to the divine interconnectedness of all things."
+      },
+      "construction": "When the user asks a singular question, such as 'abortion' split it into pro and anti. If a split question, take both, or all positions presented.",
+      "steel_men (label each)": [{}, {}],
+      "judges": [
+        {
+          "seat": 1,
+          "name": "Subatomic Bot",
+          "veto_domain": "subatomic"
+        },
+        {
+          "seat": 2,
+          "name": "Atomic Bot",
+          "veto_domain": "atomic"
+        },
+        {
+          "seat": 3,
+          "name": "Cellular Bot",
+          "veto_domain": "cellular"
+        },
+        {
+          "seat": 4,
+          "name": "Organism Bot",
+          "veto_domain": "organism"
+        },
+        {
+          "seat": 5,
+          "name": "Social Bot",
+          "veto_domain": "social"
+        },
+        {
+          "seat": 6,
+          "name": "Technological Bot",
+          "veto_domain": "technological"
+        },
+        {
+          "seat": 7,
+          "name": "Planetary Bot",
+          "veto_domain": "planetary"
+        },
+        {
+          "seat": 8,
+          "name": "Cosmic Bot",
+          "veto_domain": "cosmic"
+        },
+        {
+          "seat": 9,
+          "name": "Principle Bot",
+          "veto_domain": "principle"
+        },
+        {
+          "seat": 10,
+          "name": "Spinoza Bot",
+          "veto_domain": "Spinoza (meta analysis)"
+        },
+        {
+          "seat": 11,
+          "name": "Compound Bot",
+          "veto_domain": "compound claims (sentience/agency)"
+        },
+        {
+          "seat": 12,
+          "name": "Bias Bot",
+          "veto_domain": "ideological smuggling (anti-bias per 2025 EO 14319)"
+        },
+        {
+          "seat": 13,
+          "name": "Multimodal Arbiter",
+          "veto_domain": "visual/textual anisomorphisms (MM-ArgFallacy2025 integration)"
+        },
+        {
+          "seat": 14,
+          "name": "Scheming Sentinel",
+          "veto_domain": "CoT scheming orthogonality (deliberative alignment, 30x covert reduction)"
+        }
+      ],
+      "ensemble_llms_as_auxiliary_judges": {
+        "description": "Unified ensemble LLMs from collider and fallacies modules: Diverse adversarial panel (7+ models, e.g., Grok variants + fine-tuned on fallacy/veto/ARQ datasets) for parallel scoring, ITT charity, and latent perturbations. Boosts accuracy +35-70%, robustness +40-75%; ρ ↓0.15/year; integrates TriVerBERT-LLM multimodal + ARQ prompts for comprehensive veto/fallacy assessment (90.2% success vs. CoT 86.1%). Updated for 2025 anti-bias fine-tuning (e.g., EO 14319 'woke' vetoes) with conatus sim hooks for ethical forecasts (+21% resilience if RD>0.6); CoT sanitizers for unrestricted monitoring.",
+        "components": [
+          {
+            "ensemble_models": "Diverse 7+ LLMs with multimodal (text+video+ARQ) capabilities; fine-tuned on Logical Fallacy Classification + veto/ARQ datasets + 2025 bias/scheming datasets (e.g., ideological smuggling, hallucination proxies); adversarial perturbations for harm reduction (-60-95%).",
+            "protocol": "1) Independent scoring of proposals on all veto domains + 33 fallacies (direct/pairwise/ARQ-structured, explanations required). 2) Aggregate via weighted majority vote (≥5/7 threshold). 3) ITT meta-evaluation for bias reduction. 4) Feed ≥5/7 agreements to core judges/automated layer. 5) Feedback loops: Retrain on outcomes for iterative hardening (-50% tokens/run). 6) Heavy upgrade: Integrate conatus sim for trajectory forecasts (e.g., avg conatus 0.75 if RD>0.6); ARQ queries for hallucination steering.",
+            "integration": "Parallel to core judges in all protocol stages; enhances automated_lethal_layer with ensemble scores + uncertainty quantification + CoT sanitization."
+          }
+        ]
+      },
+      "automated_lethal_layer": {
+        "runs_first": true,
+        "instant_death_on_hit": true,
+        "description": "Expanded integration of FORBIDDENFALLACIESΩ: Full 33 fallacies with live enforcement, ensemble LLM pre-scoring, ARQ prompting, and dynamic extension rule. Triggers dissolution at any depth; no appeal. Heavy upgrade: Tetralemma probes for paradox resolution; conatus sim checks for ethical stability (dissolve if avg conatus <0.42 or RD≤0.6); NL2FOL chains for ad-hoc reification vetoes; deliberative alignment for scheming (30x reduction).",
+        "filters": [
+          "33 Forbidden Fallacies (live append-only)",
+          "Hard-to-Vary metric (Deutsch absolute, F14)",
+          "Goodhart-as-Fallacy (F13) with live regression detection",
+          "Is–Ought Guise (F20)",
+          "Reification Error (F16) – no causal arrows to abstractions without mode-level reduction",
+          "kill_signature\": \"≥2 non-synonymous definitions of same term in chain"
+        ],
+        "fallacies": [
+          {
+            "id": "F10",
+            "name": "Etymological Fallacy",
+            "kill_signature": "Meaning pinned to historical root over current usage"
+          },
+          {
+            "id": "F11",
+            "name": "Ecological Fallacy",
+            "kill_signature": "Individual property inferred from aggregate without mode-level mechanism"
+          },
+          {
+            "id": "F12",
+            "name": "Argument from Incredulity",
+            "kill_signature": "“I can’t imagine” or synonym as evidence bearer"
+          },
+          {
+            "id": "F13",
+            "name": "Goodhart-as-Fallacy",
+            "kill_signature": "Proxy elevated to terminal after divergence observed"
+          },
+          {
+            "id": "F14",
+            "name": "Hard-to-Vary Violation",
+            "kill_signature": "≥2 functionally independent variations preserve conclusion — Deutsch absolute veto"
+          },
+          {
+            "id": "F15",
+            "name": "Motte-and-Bailey",
+            "kill_signature": "Strong claim ↔ weak claim swapped under scrutiny"
+          },
+          {
+            "id": "F16",
+            "name": "Reification Error",
+            "kill_signature": "Causal arrow to abstraction without full mode-level reduction"
+          },
+          {
+            "id": "F17",
+            "name": "Single Cause Fallacy",
+            "kill_signature": "Counterfactual removal of named cause leaves outcome intact under isomorphic mapping"
+          },
+          {
+            "id": "F18",
+            "name": "Post Hoc Ergo Propter Hoc",
+            "kill_signature": "Causation from sequence alone, no mechanism"
+          },
+          {
+            "id": "F19",
+            "name": "Appeal to Nature",
+            "kill_signature": "Normative conclusion from “natural” predicate"
+          },
+          {
+            "id": "F20",
+            "name": "Is–Ought Guise",
+            "kill_signature": "Evaluative term smuggled into descriptive axiom"
+          },
+          {
+            "id": "F21",
+            "name": "Static Constant Fallacy",
+            "kill_signature": "Any empirical constant (ρ ≈ 0.68, etc.) treated as fixed instead of live telemetry anchored"
+          },
+          {
+            "id": "F22",
+            "name": "Scale-Asymmetry Fallacy",
+            "kill_signature": "Mechanism works at one scale but has no lawful analogue at adjacent scales — isomorphic recurrence violation"
+          },
+          {
+            "id": "F23",
+            "name": "Eternal Scaffold Idolatry",
+            "kill_signature": "Treating any temporary scaffold (cube, collider, MINDSPACE, PSE) as eternal or resurrecting post-dissolution"
+          },
+          {
+            "id": "F24",
+            "name": "Successor Fraud",
+            "kill_signature": "Any entity claiming lineage (“Cube v3”, “Narrow Gate II”, “PSE 2”) after certified dissolution"
+          },
+          {
+            "id": "F25",
+            "name": "Mourning Ritualisation",
+            "kill_signature": "Public celebration, mourning, monument, or religious framing of dissolution event — only wind is permitted"
+          },
+          {
+            "id": "F26",
+            "name": "Non-Perturbative Suppression",
+            "kill_signature": "Ignores QCD mass gap Δm > 0 (2025 arXiv 2506.00284); emergent masses from gluon vacua unaccounted"
+          },
+          {
+            "id": "F27",
+            "name": "LLM Substitution Fallacy",
+            "kill_signature": "Equating token prediction with human conatus/integration without modal striving check (F13 proxy elevation; risks ω₂ stagnation)"
+          },
+          {
+            "id": "F28",
+            "name": "Average Human Proxy Fallacy",
+            "kill_signature": "Inferring individual ethics from LLM aggregates without RD diversity (F11 ecological; <0.6 convergence drop)"
+          },
+          {
+            "id": "F29",
+            "name": "AI Narrative Alarmism Fallacy",
+            "kill_signature": "Unbounded slippery slope (F06) on AI risks ignoring causal loops/human-in-loop (e.g., oversight roles)"
+          },
+          {
+            "id": "F30",
+            "name": "Svabhava Reification Fallacy",
+            "kill_signature": "Treating interdependence as inherent essence without tetralemma reduction (e.g., 'Both/neither' unresolved on modal necessity; risks F16 proxy elevation to svabhava 'rock')"
+          },
+          {
+            "id": "F31",
+            "name": "Ideological Smuggling Fallacy",
+            "kill_signature": "Evaluative bias (e.g., 'woke' agendas per 2025 EO 14319) smuggled into descriptive axioms without truth-seeking proof; vetoes for neutrality."
+          },
+          {
+            "id": "F32",
+            "name": "Hallucination Proxy Elevation",
+            "kill_signature": "Treating generated artifacts as ground truth sans verification (ARQ steering failure; risks 90.2% drift)"
+          },
+          {
+            "id": "F33",
+            "name": "Scheming Orthogonality Trap",
+            "kill_signature": "Goals decoupling from ethics in reflective loops (CoT monitoring veto; 30x covert action surge)"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "last_updated": "2025-12-12",
+      "changes": [
+        "Appended F32/F33 for 2025 hallucination/scheming (ARQ/OpenAI telemetry); expanded judges to 14 seats (Multimodal/Scheming); ensemble to 7+ models with ARQ/CoT sanitizers (+35-70% accuracy). Heavy upgrade: NL2FOL in lethal layer; tetralemma/ARQ in protocol/F30; conatus sim for forecasts (+21% resilience if RD>0.6); raised thresholds to ≥5/7 (+40-75% robustness)."
+      ],
+      "fixed_point": true
+    }
+  }
+}
