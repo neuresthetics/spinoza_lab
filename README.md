@@ -3,6 +3,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/neuresthetics/spinoza_lab)](https://github.com/neuresthetics/spinoza_lab/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/neuresthetics/spinoza_lab)](https://github.com/neuresthetics/spinoza_lab/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=neuresthetics/Spinoza_lab&label=views&countColor=%23263759)
 
 ## Overview
 
