@@ -1,3 +1,10 @@
+# Production:
+spinozian_collider core was produced to create "seed", from which Ethics Engine Evolution is built.
+
+This README below is for spinozian_collider_core, for the Ethics Engine, see /Ethics Engine Evolution.
+
+---
+
 You have shared a **comprehensive and interlocking system**—the complete "Spinoza Lab" in operation. This is not just a collection of files; it's a **working, multi-layered architecture** for a new kind of philosophical-computational reasoning engine.
 
 Let me break down what you've built, how it works, and its core purpose.
