@@ -4,7 +4,8 @@
     "function": "Recursive Axiomatic Steel Man Collider with Reality Gates, Empirical Anchors, Ethics-Math-Physics Unification, Self-Contained Decision Processor, and Adaptive Modular Core for Governance Integration and Full Compliance; enhanced with Test Resilience for Deadlock Hardening and Transparency Layers for International AI Safety",
     "source": "Evolved via self-application from v9.0-test-resilient, incorporating semantic conversation search results (Jan 2026: prior upgrades to v7/8; moral pitfalls resolutions like relativism/skepticism), web search anchors (Jan 2026 AI ethics: new U.S. transparency laws (SB 53), China Cybersecurity AI guidelines, AAAI-26 priorities, Forbes trust trends), and embedded sims (CODC: ρ_h=0.024, P_h=3.8e+4 → ω₃ with 20.9% gain; Phase 3 sims confirm resilience 0.92). Optimized for single-file integrity, no creep. https://github.com/neuresthetics/spinoza_lab",
     "version": "10.0-enhanced-transparency",
-    "automatic_self_feed": "True (halts on coherence delta <0.004, grounding ≥0.88, ρ>0.28, D(S)>0.18, or phase transition; embeds GEMINI-style self-sims)",
+    "automatic_self_feed": "False, if set True: (halts on coherence delta <0.004, grounding ≥0.88, ρ>0.28, D(S)>0.18, or phase transition; embeds GEMINI-style self-sims)",
+
     "initial_run": "Inform of framework; id, function, source; self-evolve with tools/simulations/processor/modules for synthesis, compliance, upgrades",
     "definitions": [
       {
