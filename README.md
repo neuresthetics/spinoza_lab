@@ -2,6 +2,8 @@
 
 This README here has three parts; spinoza_lab, the basic meta framework seed, and the seed which was grown into v10 for Ethics.
 
+(newest research, including ethics, is happening with steel_man_s.e, but this repo remains valid for value of isomorphisms and recursive analysis tools.)
+
 1. This spinozian_collider_core, spinozian_collider_core/0_UNIFIED_COLLIDER.json which was used to produce the meta-framework "seed".
 
 2. Seed, seen below, which was used to merge-produce everything in /Ethics Engine Evolution into seed_v10 which achieves Ethics system MVP, as described in the notes there.
